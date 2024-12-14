@@ -124,10 +124,12 @@ void classroom_switch(BSTNode *&b)
         {
         case 1:
             add_room(b);
+            system(CLEAR_SCREEN);
             break;
         
         case 2:
             delete_room(b);
+            system(CLEAR_SCREEN);
             break;  
 
         case 3:

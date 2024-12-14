@@ -11,6 +11,6 @@ void delete_stu(LinkNode *&L);
 void modify_stu(LinkNode *&L);
 void query_stu(LinkNode *&L);
 void show_all_stu(LinkNode *L);
-// void batch_modify_stu(LinkNode *&L);
+void batch_modify_stu(LinkNode *&L);
 
 #endif

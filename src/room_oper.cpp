@@ -9,7 +9,7 @@ void add_room(BSTNode *&b)
     char mutimedia[2];
     int size;
     char pos[Maxsize];
-    printf("\n=== 添加教室 ===\n");
+    printf("=== 添加教室 ===\n");
     printf("请输入教室编号: ");
     scanf("%d", &key);
     printf("请输入教室所在校区: ");
@@ -37,7 +37,7 @@ void delete_room(BSTNode *&b)
 {   
     int taller = 0;
     int id;
-    printf("\n=== 删除教室信息 ===\n");
+    printf("=== 删除教室信息 ===\n");
     printf("请输入要删除的教室编号: ");
     scanf("%d", &id);
     int flag = DeleteAVL(b, id, taller);
